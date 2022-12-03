@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		4B5FDFE5293B16BE009B0A7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FDFE4293B16BE009B0A7B /* AppDelegate.swift */; };
 		4B5FDFE7293B16BE009B0A7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FDFE6293B16BE009B0A7B /* SceneDelegate.swift */; };
-		4B5FDFE9293B16BE009B0A7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FDFE8293B16BE009B0A7B /* ViewController.swift */; };
 		4B5FDFEC293B16BE009B0A7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FDFEA293B16BE009B0A7B /* Main.storyboard */; };
 		4B5FDFEE293B16C0009B0A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FDFED293B16C0009B0A7B /* Assets.xcassets */; };
 		4B5FDFF1293B16C0009B0A7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FDFEF293B16C0009B0A7B /* LaunchScreen.storyboard */; };
+		4B5FDFF9293B1BB9009B0A7B /* SliderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FDFF8293B1BB9009B0A7B /* SliderController.swift */; };
+		4B5FDFFD293B396C009B0A7B /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FDFFC293B396C009B0A7B /* crayon_1-1.ttf */; };
+		4B5FDFFF293B3BE8009B0A7B /* setofont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FDFFE293B3BE8009B0A7B /* setofont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B5FDFE1293B16BE009B0A7B /* SlideAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5FDFE4293B16BE009B0A7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B5FDFE6293B16BE009B0A7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B5FDFE8293B16BE009B0A7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B5FDFEB293B16BE009B0A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B5FDFED293B16C0009B0A7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B5FDFF0293B16C0009B0A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B5FDFF2293B16C0009B0A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5FDFF8293B1BB9009B0A7B /* SliderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderController.swift; sourceTree = "<group>"; };
+		4B5FDFFC293B396C009B0A7B /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
+		4B5FDFFE293B3BE8009B0A7B /* setofont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = setofont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 			children = (
 				4B5FDFE4293B16BE009B0A7B /* AppDelegate.swift */,
 				4B5FDFE6293B16BE009B0A7B /* SceneDelegate.swift */,
-				4B5FDFE8293B16BE009B0A7B /* ViewController.swift */,
+				4B5FDFFC293B396C009B0A7B /* crayon_1-1.ttf */,
+				4B5FDFFE293B3BE8009B0A7B /* setofont.ttf */,
 				4B5FDFEA293B16BE009B0A7B /* Main.storyboard */,
 				4B5FDFED293B16C0009B0A7B /* Assets.xcassets */,
 				4B5FDFEF293B16C0009B0A7B /* LaunchScreen.storyboard */,
+				4B5FDFF8293B1BB9009B0A7B /* SliderController.swift */,
 				4B5FDFF2293B16C0009B0A7B /* Info.plist */,
 			);
 			path = SlideAPP;
@@ -125,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B5FDFFD293B396C009B0A7B /* crayon_1-1.ttf in Resources */,
+				4B5FDFFF293B3BE8009B0A7B /* setofont.ttf in Resources */,
 				4B5FDFF1293B16C0009B0A7B /* LaunchScreen.storyboard in Resources */,
 				4B5FDFEE293B16C0009B0A7B /* Assets.xcassets in Resources */,
 				4B5FDFEC293B16BE009B0A7B /* Main.storyboard in Resources */,
@@ -138,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B5FDFE9293B16BE009B0A7B /* ViewController.swift in Sources */,
+				4B5FDFF9293B1BB9009B0A7B /* SliderController.swift in Sources */,
 				4B5FDFE5293B16BE009B0A7B /* AppDelegate.swift in Sources */,
 				4B5FDFE7293B16BE009B0A7B /* SceneDelegate.swift in Sources */,
 			);
